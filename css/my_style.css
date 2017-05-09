@@ -1,0 +1,295 @@
+/*
+.nav-2 {
+	background-color: blue;
+}
+*/
+.fixed_nav {
+  position: fixed;
+  top: 150px;
+  right: 0px;
+  padding: 2px;
+  background-color: rgba(12, 104, 102, 0.8);
+  z-index: 9999;
+}
+
+.fixed_nav_2 {
+  position: fixed;
+  top: 120px;
+  right: 0px;
+  padding: 2px;
+  background-color: rgba(12, 104, 102, 0.8);
+  z-index: 9999;
+}
+
+.menu_bar_icon {
+  display: block;
+  margin: auto;
+  width: 25px;
+  height: 25px;
+}
+
+.menu_bar_text {
+  text-align: center;
+  color: #fff;
+  padding: 2px;
+  margin: 0;
+  font-size: 80%;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+}
+
+.fixed_nav_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed_nav_list li {
+  border-bottom: 2px solid #fff;
+  padding: 12px 5px;
+}
+
+.fixed_nav_list li:hover {
+  background-color: rgba(12, 124, 122, 0.8);
+}
+
+
+/*For simple search panel*/
+.searchPanel {
+   margin: 5% 0; 
+}
+
+.searchInput {
+    width: 55%;
+    margin: 2% 0;
+    box-sizing: border-box;
+    border: 2px solid #f1f1f1;
+    border-radius: 0px;
+    color: #fff;
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    word-spacing: 1px;
+    background-color: rgba(255,255,255,0.1);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 12px 20px 12px 40px;
+     -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.searchInput::placeholder {
+  color: #ccc;
+}
+
+.searchInput:focus {
+     background-color: rgba(0,0,0,0.1);
+}
+
+.searchButton, .searchButton:hover, .searchButton:focus {
+    margin: 0px 10px;
+    padding: 14px 20px;
+    border: none;
+    background-color: #0cb8b6;
+    color: #fff;
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    word-spacing: 1px;
+}
+
+
+/*btn btn-from*/
+/*
+    .btn-form, .btn-form:hover, .btn-form:focus {
+    background-color: #0cb8b6;
+    color: #fff;
+    border-radius: 0px;
+    padding: 10px 20px;
+}
+    */
+
+
+/*For advanced search panel and dostor's page*/
+#banner-2a{
+	position: relative;
+}
+.bg-color-2a{
+	background-color: RGBA(13, 70, 83, 0.78);
+}
+
+.margin-btn {
+	margin: 10px 10px 10px 0;
+}
+
+.margin-2-btn {
+	margin: 10px 0;
+}
+
+input.advancedSearch {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+
+}
+
+input.advancedSearch:focus {
+	border: 2px solid #00008B;
+}
+
+.text_prop {
+	margin-top: 10px;
+	font-size: 100%;
+	color: #555;
+}
+
+.title-doctor h2 {
+	text-align: center;
+	margin: 10px;
+}
+
+.doctor-image {
+	position: relative;
+	width: 261px;
+	height: auto;
+	float: right;
+	margin: 30px 0 10px 0;
+	border: 1px solid #ccc;
+}
+
+.doctor-name {
+	font-size: 120%;
+	font-weight: 500;
+}
+
+.doctor-name2 {
+  color: #888;
+  font-size: 110%;
+  font-weight: 500;
+}
+
+.doctor-mark {
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin: 2px;
+}
+
+.doctor-status {
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+
+.doctor-status2 {
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+}
+
+.d_status {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+hr.doctor-line {
+    height: 2px;
+    background: #ffb737;
+    position: relative;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+
+.doctor-textarea {
+	width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+    background-color: #f8f8f8;
+    font-size: 100%;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    resize: none;
+}
+
+.doctor-textarea:focus {
+	border: 2px solid #00008B;
+}
+
+/*Table properties*/
+table.doctor-timetable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 95%;
+  color: #555;
+}
+
+tr.doctor-timetable th {
+  height: 50px;
+  background-color: #ADFFE6;
+}
+
+tr.doctor-timetable th, tr.doctor-timetable td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ADD8E6;
+}
+
+/*Doctor's list*/
+.search-list-image {
+  width: 40px;
+  height: 40px;
+}
+
+.arrow-icon-image {
+   width: 20px;
+  height: 20px;
+}
+
+
+/*Table properties*/
+.table-list {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 95%;
+  color: #555;
+}
+
+.table-list th {
+  height: 50px;
+  background-color: rgba(12, 184, 182, 0.91);
+  color: #fff;
+}
+
+.table-list th, .table-list td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ADD8E6;
+}
+
+.table-list tr:nth-child(even) {
+ background-color: #ADD8E6;
+}
+
+.doctor-self-intro {
+  background-color: #eee;
+  color: #555;
+  border-left: 2px solid rgba(0,0,255,0.5);
+  padding: 10px;
+}
+

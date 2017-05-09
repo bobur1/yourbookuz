@@ -1,0 +1,30 @@
+textarea
+{
+    width: 400px;
+    height: 80px;
+    resize: none;
+}
+button
+{
+    width: 100px;
+    height: 25px;
+    border: none;
+}
+.comment-box
+{
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: gray;
+    border-radius: 4px;
+    position: relative;
+}
+
+.comment-box p
+{
+    font-family: arial;
+    font-size: 15px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+}
